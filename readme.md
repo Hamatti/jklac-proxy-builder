@@ -31,3 +31,11 @@ python ../../build.py images.txt > index.html
 ```
 
 which will generate the HTML page for printing.
+
+### `index.py`
+
+`index.py` is used for generating an index page on the top level for all the decks you have inside.
+
+```
+python index.py > index.html
+```
