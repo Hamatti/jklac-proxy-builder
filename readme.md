@@ -1,5 +1,13 @@
 # PTCG Proxies from Jason Klaczynski's blog
 
+## NOTICE
+
+Jason's blog has changed its layout and this project does not work anymore.
+
+The best way to build proxies from Jason's blog now is to use the **Copy deck list** button, then head over to [https://limitlesstcg.com/tools/proxies](https://limitlesstcg.com/tools/proxies), choose **List input** and paste the list there.
+
+## Original Readme
+
 A collection of scripts and outputs to print out proxies of old formats
 
 Each format is in its own folder and each deck likewise so.

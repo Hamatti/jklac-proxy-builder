@@ -5,7 +5,7 @@ decks = {}
 formats = [folder for folder in os.listdir('.') if os.path.isdir(folder)]
 
 for folder in formats:
-    decks[folder] = [f for f in os.listdir(f'{folder}/') if os.path.isdir(os.path.join(folder, f))]
+    decks[folder] = [f for f in os.listdir(f'{folder}/') if os.path.isdir(os.path.join(folder, f)) and not f.startswith('.')]
 
 html = '''
 <html>
